@@ -13,25 +13,55 @@
 }
 
 .container{
-    background-color: rgb(29, 235, 29);
+    background-color: white;
     max-width: 700px;
     margin: auto;
     height: 60vh;
+    border: 1px solid black;
+    overflow-y: auto;
+    margin-bottom: 8px;
 }
 
 .msg {
-    background-color: whitesmoke;
+    background-color: rgb(180, 180, 180);
     width: 20%;
     padding: 8px;
     margin: 17px 3px;
-    border: 1px solid whitesmoke;
+    border: 1px solid rgb(180, 180, 180);
     border-radius: 10px;
 }
 
 .left{
-
+    float: left;
+    clear: both;
 }
 
 .right {
+    float: right;
+    clear: both;
+}
 
+body {
+    height: 100vh;
+    background: linear-gradient(white, rgb(42, 255, 42));
+}
+
+#send-container{
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 980px;
+}
+
+.btn {
+    cursor: "pointer";
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#messageInput {
+    width: 636px;
+    height: 30px;
 }
